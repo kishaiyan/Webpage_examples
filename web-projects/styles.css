@@ -1,0 +1,32 @@
+body {
+  background: rgb(80,80,80);
+  background: radial-gradient(circle, rgba(80,80,80,1) 19%, rgba(7,7,8,1) 73%);
+  font-family: "Jersey 15",sans-serif;
+  font-size: 32px;
+  color:white;
+}
+#player, #computer{
+border: 2px solid white;
+}
+#player:hover{
+  background-color: green;
+  box-shadow: 1px white;
+}
+#computer:hover{
+box-shadow: 2px green;
+color:black;
+background-color: antiquewhite;
+}
+.cell{
+  background-color: rgba(44,57,104,0.5);
+  height:100px; 
+  width:100px; 
+  font-size:80px; 
+  color:goldenrod; 
+  margin:2px;
+  border-radius: 10px;
+ 
+}
+.cell:hover{
+  background-color: rgb(44,57,104);
+}
